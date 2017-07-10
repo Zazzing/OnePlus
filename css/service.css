@@ -1,0 +1,677 @@
+a:hover,a:active,a:visited,a:focus{
+	text-decoration: none;
+}
+/*service1 begin*/
+.service1{
+	background: url(../img/service1.1.jpg)center no-repeat;
+	height: 400px;
+	width: 100%;
+	background-size: cover;
+	text-align: center;
+	display: table;
+}
+.service1 h2{
+  	margin: 0;
+	color: white;
+	font-size: 50px;
+	font-weight: 300;
+	display: table-cell;  /*让标签元素以表格单元格的形式呈现*/
+	vertical-align: middle;  /*单元格的特殊属性:垂直居中*/
+}
+@media only screen and (max-width:1200px ) {
+	.service1{
+		height: 340px;
+	}
+}
+@media only screen and (max-width:768px ) {
+	.service1{
+		height: 250px;
+	}
+	.service1 h2{
+		font-size: 40px;
+	}
+}
+@media only screen and (max-width:768px ) {
+	.service1 h2{
+		font-size: 30px;
+	}
+}
+/*service1 end*/
+
+/*service2 begin*/
+.service2{
+	background: white;
+}
+.service2Con{
+	padding: 60px 0 80px;
+	text-align: center;
+}
+.serviceConone{
+	margin-bottom: 60px;
+	padding-left:12%;
+	padding-right: 12%;
+}
+.sectiontwo a{
+	display: inline-block;
+	color: #10181f;
+}
+.sectiontwo a:hover{
+	text-decoration: none;
+	color: #10181f;
+}
+.sectiontwo span{
+	display: inline-block;
+	margin: 0 auto 24px;
+	height: 60px;
+    width: 60px;
+}
+.sectiontwo h2{
+	font-size: 16px;
+	margin: 0;
+	padding: 0;
+}
+.twoone span{
+	background:url(../img/service2.1.png) no-repeat ;
+	background-position: 0 -292px;
+}
+.twoone a:hover span{
+	background-position: 0 -352px;
+}
+.twotwo span{
+	background:url(../img/service2.1.png) no-repeat ;
+	background-position: 0 -52px;
+}
+.twotwo a:hover span{
+	background-position: 0 -112px;
+}
+.twothree span{
+	background:url(../img/service2.1.png) no-repeat ;
+	background-position: 0 -172px;
+	height: 60px;
+    width: 60px;
+}
+.twothree a:hover span{
+	background-position: 0 -232px;
+}
+.twofour span{
+	background:url(../img/service2.1.png) no-repeat ;
+	background-position: 0 -518px;
+	height: 60px;
+    width: 60px;
+}
+.twofour a:hover span{
+	background-position: 0 -578px;
+}
+@media only screen and (max-width: 768px) {
+	.service2Con{
+		padding: 50px 0;
+	}
+	.serviceConone{
+		margin-bottom: 0;
+	}
+	.sectiontwo{
+		margin-bottom: 50px;
+	}
+}
+.Bg {
+	padding: 0 10px;
+	display: block;
+}
+.Bg a{
+	display: inline-block;
+	height: 260px;
+	width: 100%;
+	position: relative;
+	overflow: hidden;
+}
+.BgFirst1{
+	display: block;
+	background: url(../img/service2.2.jpg) center no-repeat;
+	background-size: cover;
+	height: 100%;
+	width: 100%;
+	transition: transform 1s;
+}
+.BgFirst2{
+	display: block;
+	background: url(../img/service2.3.jpg) center no-repeat;
+	background-size: cover;
+	height: 100%;
+	width: 100%;
+	transition: transform 1s;
+}
+.Bg a:hover .BgFirst1,.Bg a:hover .BgFirst2 {
+    transform: scale(1.05,1.05);
+}
+.BgCon{
+	position: absolute;
+	top: 50%;
+	width: 100%;
+	display: block;
+	text-align: center;
+	margin-top: -60px;
+}
+.BgCon span{
+	margin-bottom: 24px;
+	height: 82px;
+}
+.BgCon1 span{
+	display: inline-block;
+	width: 80px;
+	background: url(../img/service2.1.png) center no-repeat;
+	background-position: 0 -412px;
+}
+.BgCon2 span{
+	display: inline-block;
+	width: 80px;
+	background: url(../img/service2.1.png) center no-repeat;
+	background-position: 0 -1118px;
+}
+.BgCon h2{
+	font-size: 16px;
+	color: white;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+/*滑动*/
+.slideBegin{
+	display: none;
+}
+@media only screen and (max-width:768px ) {
+	.serviceContwo {
+		display: none;
+	}
+	.slideBegin{
+		display: block;
+	}
+	.Bg{
+		padding: 0;
+	}
+}
+@media only screen and (max-width:640px ) {
+	.Bg a{
+		height: 200px;
+	}
+}
+.slideBegin{
+	position: relative;
+}
+#myCarousel{
+	margin-left: 30px;
+	margin-right: 30px;
+}
+.slideBegin a{
+	color: #9d9d9d;
+}
+.slideBegin a:hover,.slideBegin a:visited,.slideBegin a:focus,.slideBegin a:active{
+	text-decoration: none;
+	color: #9d9d9d;
+}
+.carousel-inner{
+	height: 100% !important;
+}
+.carousel-control.left,.carousel-control.right {
+	background-image: none;
+}
+#otherIndicators{
+	left: 0;
+	margin-left: 0;
+	margin-bottom: 0;
+	margin-top: 0;
+	bottom: -30px;
+	/*background: red;*/
+	width: 100%;
+	margin: 0 auto;
+}
+.carousel-indicators .active {
+    width: 14px !important;
+    height: 14px !important;
+    background-color: #ccc !important;
+}
+#otherli1, #otherli2{
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    margin: 0;
+    text-indent: -999px;
+    cursor: pointer;
+    background-color: #000 \9;
+    background-color: rgba(0, 0, 0, 0);
+    border: 1px solid #ccc;
+    border-radius:50%;
+    margin: 0 10px;
+}
+.carousel-control.left{
+	background-image: none !important;
+}
+.carousel-control.right{
+	background-image: none !important;
+}
+.slideBegin a{
+    font-size: 50px;
+}
+.slideNext {
+	position: absolute;
+	left: auto;
+	right: 0;
+	top: 30%;
+}
+.slidePre {
+	position: absolute;
+	left: 0;
+	right: auto;
+	top: 30%;
+}
+/*service2 end*/
+
+/*service3 begin*/
+.service3{
+	height: 650px;
+	background: url(../img/service3.1.jpg)center no-repeat;
+	background-size: cover;
+	margin-bottom: 60px;
+	position: relative;
+}
+.service3 .servic3Con{
+	padding-top: 60px;
+	display: table;
+	text-align: center;
+}
+.threeConfirst h1,.threeConfirst h2,.threeConfirst h3{
+	margin: 0;
+	padding: 0;
+}
+.threeConfirst h1{
+	font-size: 24px;
+	margin-bottom: 30px;
+	padding-bottom: 30px;
+	position: relative;
+}
+.threeConfirst h1 span{
+	display: block;
+	position: absolute;
+	left: 50%;
+	border-bottom: 1px solid black;
+	width: 40px;
+	margin-left: -20px;
+	bottom: 0;
+}
+.threeConfirst h3{
+	font-size: 16px;
+	margin-bottom: 24px;
+}
+.threeConTwo{
+	margin-bottom: 45px;
+}
+.threeConTwo button{
+	width: 150px;
+	height: 45px;
+	background: 0 0;
+	border: 1px solid #000;
+	font-size: 14px;
+}
+.threeConTwo button:focus{
+	outline: none;
+}
+.threeConTwo button i{
+	font-size: 12px;
+	padding-right: 10px;
+}
+.threeConThree{
+	background: white;
+	text-align: center;
+}
+.threePart{
+	height: 330px;
+	padding-top: 40px;
+}
+.threePartone{
+	border-right: 1px solid #dfdfdf;
+}
+.threePart h1,.threePart h2{
+	margin: 0;
+	padding: 0;
+}
+.threePart h1{
+	margin-bottom: 35px;
+	padding: 0;
+	font-size: 18px;
+}
+.threeHeight{
+	height: 90px;
+}
+.threePart h2{
+	font-size: 14px;
+	color: #999;
+	max-width: 440px;
+	line-height: 24px;
+	margin: 0 auto;
+	padding-bottom: 42px;
+}
+.threePart img{
+	width: 56px;
+	margin: 0 auto;
+	display: block;
+}
+.threePart a{
+	display: block;
+	margin-top: 25px;
+	color: #09c;
+	text-decoration: none;
+}
+.threePart a:hover,.threePart a:active,.threePart a:focus{
+	text-decoration: none;
+	color: #eb0028;
+}
+
+
+.slideThreeCon{
+	display: none;
+}
+@media only screen and (max-width:768px ) {
+	.service3{
+		background: url(../img/service3.1.top.jpg) top no-repeat;
+		background-size: cover;
+	}
+	.threeConThree{
+		display: none;
+	}
+	.slideThreeCon{
+		display: block;
+	}
+	.threePart {
+		height: auto;
+    	/*border:none; */
+    	padding-bottom: 30px;
+	}
+}
+.threeSlide3{
+	background: white;
+	text-align: center;
+	position: relative;
+}
+.slideThreeCon a.slideOpen{
+	color: #9d9d9d;
+}
+.slideThreeCon a.slideOpen:hover,.slideBegin a.slideOpen:visited,.slideBegin a.slideOpen:focus,.slideBegin a:active{
+	text-decoration: none;
+	color: #9d9d9d;
+}
+.slideThreeCon a.slideOpen{
+    font-size: 60px;
+}
+.slideThreeCon .slideNext {
+	position: absolute;
+	left: auto;
+	right: 0;
+	top: 60%;
+}
+.slideThreeCon .slidePre {
+	position: absolute;
+	left: 0;
+	right: auto;
+	top: 60%;
+}
+/*service3 end*/
+/*service4 begin*/
+.service4{
+	padding-bottom: 60px;
+}
+.fourConfirst{
+	margin-bottom: 40px;
+	height: 90px;
+	font-size: 14px;
+	border-bottom: 1px solid #dfdfdf;	
+}
+.fourConfirst h2{
+	margin: 0;
+	padding: 0;
+	font-size: 24px;
+	line-height: 90px;
+	margin-left: 3%;
+	display: inline-block;
+}
+.formCon{
+	background: #efefef;
+	float: right;
+	margin-top: 20px;
+	margin-right: 3%;
+}
+.formCon input{
+	width: 350px;
+	background: #efefef;
+	border: none;
+	text-indent: 12px;
+	height: 50px;
+}
+.formCon input:focus{
+	outline: none;
+}
+.formCon span{
+	height: 50px;
+	width: 50px;
+	background: #efefef;
+	font-size: 24px;
+	vertical-align: middle;
+	line-height: 50px;
+	color: #777;
+}
+@media  only screen and (max-width:768px ){
+	.fourConfirst{
+		padding: 60px 0 30px ;
+		text-align: center;
+		height: auto;
+	}
+	.fourConfirst h2{
+		text-align: center;
+		float: none;
+		display: block;
+		line-height: 1em;
+    	margin: 0 auto 30px;
+	}
+	.formCon{
+		margin: 0;
+		float: none;
+		display: inline-block;
+		text-align: center;
+	}
+}
+@media only screen and (max-width:400px) {
+	.formCon input{
+		width: 220px;
+	}
+}
+@media (min-width:769px ) and (max-width:1200px ){
+	.service4 .service4Con{
+		margin: 0;
+		/*padding: 0;*/
+		width: 100%;
+	}
+	.fourConfirst h2{
+		margin-left: 5%;
+	}
+	.formCon{
+		margin-right: 5%;
+	}
+}
+.fourContwo{
+	margin-bottom: 30px;
+}
+.fourContwo ul{
+	list-style: none;
+}
+.fourContwo .fourPart{
+    padding: 0 3%;
+    font-size: 14px;
+}
+@media only screen and (max-width:1200px ) {
+	.fourContwo .fourPart{
+		padding: 0 5%;
+	}
+}	
+@media only screen and (max-width:786px ) {
+	.fourContwo .fourPart{
+		margin: 0;
+	}
+}
+@media only screen and (max-width:400px ) {
+	.fourContwo .fourPart{
+		padding: 0 2%;
+	}
+}
+.fourPart li{
+	line-height: 50px;
+	font-size: 14px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis; /*超出省略号*/
+}
+.fourPart li a{
+	color: #666;
+}
+.fourPart li a:hover{
+	text-decoration: underline;
+}
+.fourPart .spanSize{
+	font-size: 4px;
+	padding-right: 2px;
+}
+.fourPart li a:active{
+	text-decoration: none;
+}
+.fourConthree{
+	padding: 0 3%;
+}
+.fourConthree a{
+    color: #09c;
+    line-height: 16px;
+    font-size: 14px;
+    text-decoration: none;
+}
+.fourConthree a:hover,.fourConthree a:focus{
+	color: #09c;
+	text-decoration: underline;
+}
+.fourConthree .picSize{
+	padding-right: 5px;
+	font-size: 3px;
+}
+@media only screen and (max-width: 380px){
+	.fourConthree {
+	    padding: 0 2%;
+	}
+}
+@media (min-width:381px) and (max-width: 1200px){
+	.fourConthree {
+	    padding: 0 5%;
+	}
+}
+
+/*service4 end*/
+
+/*service5 begin*/
+.service5{
+	width: 100%;
+	height:420px;
+	background: url(../img/service5.1.jpg)center no-repeat;
+	color: white;
+	background-size: cover;
+	text-align: center;
+	/*display: table;*/
+}
+.service5Con{
+	/*display: table-cell;
+	vertical-align: middle;*/
+	padding-top: 110px;
+}
+.service5Part{
+	padding-left: 17%;
+    padding-right: 17%;
+
+}
+@media only screen and (max-width:768px ) {
+	.service5{
+		height:auto;
+		background: url(../img/service5.1.small.jpg)center no-repeat;
+		/*display: table;*/
+		background-size: cover;
+	}
+	.service5Part {
+		padding-left: 0;
+		padding-right: 0;
+	}
+	.service5Con{
+		padding: 60px 0 30px;
+	}
+	.fivePart{
+		margin-bottom: 60px;
+	}
+}
+@media (min-width:769px ) and (max-width:1200px ){
+	.service5Part{
+		padding-left: 12%;
+    	padding-right: 12%;
+	}
+}
+.service5Con h1{
+	font-size: 24px;
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+    position: relative;
+}
+.service5Con h1 span{
+    display: block;
+    position: absolute;
+    left: 50%;
+    border-bottom: 1px solid white;
+    width: 40px;
+    margin-left: -20px;
+    bottom: 0;
+}
+.fivePart a{
+	display: inline-block;
+	color: white;
+}
+.fivePart a:hover{
+	color: white;
+	text-decoration: none;
+}
+.fivePart span{
+	display: block;
+	height: 60px;
+    width: 60px;
+    margin: 0 auto 28px;
+}
+.fivePart h2{
+	font-size: 18px;
+}
+.fivePartone span{
+	background: url(../img/service2.1.png) no-repeat;
+	background-position: 0 -998px;
+}
+.fivePartone:hover span{
+	background-position: 0 -1058px;;
+}
+.fiveParttwo span{
+	background: url(../img/service2.1.png) no-repeat;
+	background-position: 0 -638px;
+}
+.fiveParttwo:hover span{
+	background-position: 0 -698px;;
+}
+.fivePartthree span{
+	background: url(../img/service2.1.png) no-repeat;
+	background-position: 0 -758px;
+}
+.fivePartthree:hover span{
+	background-position: 0 -818px;;
+}
+.fivePartfour span{
+	background: url(../img/service2.1.png) no-repeat;
+	background-position: 0 -878px;
+}
+.fivePartfour:hover span{
+	background-position: 0 -938px;;
+}
+/*service5 end*/

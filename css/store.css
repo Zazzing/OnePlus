@@ -1,0 +1,308 @@
+a:hover,a:active,a:visited,a:focus{
+	text-decoration: none;
+}
+.store1{
+	background: #f1f1f1;;
+	height: 150px;
+	overflow: hidden;
+}
+.store1 .storeAll{
+	text-align: center;
+	vertical-align: middle;
+}
+.store1Nav{
+	display: none;
+}
+@media only screen and (max-width:768px ) {
+	.store1{
+		display: none;
+	}
+	.store1Nav{
+		display: block;
+		background: #f1f1f1;
+		width: 100%;
+		height: 45px;
+		overflow: hidden;
+	}
+	.store1NavOne{
+		width: auto;
+		float: left;
+		padding-left: 10px;
+	}
+	.store1NavOne div{
+		display: inline-block;
+		padding: 0 8px;
+	}
+	.store1NavOne div a{
+		line-height: 45px;
+		display: block;
+		font-size: 14px;
+		color: black;
+	}
+	.store1NavTwo{
+		display: inline-block;
+		position: absolute;
+		/*float: right;*/
+		width: 45px;
+		top: 80px;
+		right: 0;
+		background: #f1f1f1;
+		height:45px;
+		color: #a9a9a9;
+		box-shadow: -15px 0 4px 0 #f1f1f1;
+	}
+	.store1NavTwo:hover,.store1NavTwo:active{
+		color: #a9a9a9;
+	}
+	
+	.store1NavTwo span{
+		line-height: 45px;
+		font-size: 22px;
+	}
+}
+.store1Con{
+	display: inline-block;
+	padding: 40px 0 25px;
+}
+.store1Part{
+	width: 105px;
+	float: left;
+	/*padding: 30px 0;*/
+	display: inline-block;
+}
+.store1Part a{
+	text-align: center;
+	color: black;
+	display:block;
+}
+.store1Part a:hover{
+	color: red;
+	text-decoration: none;
+}
+.store1Part span{
+	border-radius: 50%;
+	display: inline-block;
+	height: 41px;
+	width: 41px;
+	margin-bottom: 25px;
+}
+.store1Part1 span{
+	background:url(../img/store1.1.1.png) no-repeat #ccc;
+	background-position: 0 -451px;
+}
+.store1Part1 a:hover span{
+	background-position: 0 -410px;
+}
+.store1Part2 span{
+	background:url(../img/store1.1.1.png) no-repeat #ccc;
+	background-position: 0 -41px;
+}
+.store1Part2 a:hover span{
+	background-position: 0 0px;
+}
+.store1Part3 span{
+	background:url(../img/store1.1.1.png) no-repeat #ccc;
+	background-position: 0 -287px;
+}
+.store1Part3 a:hover span{
+	background-position: 0 -246px;
+}
+.store1Part4 span{
+	background:url(../img/store1.1.1.png) no-repeat #ccc;
+	background-position: 0 -205px;
+}
+.store1Part4 a:hover span{
+	background-position: 0 -164px;
+}
+.store1Part5 span{
+	background:url(../img/store1.1.1.png) no-repeat #ccc;
+	background-position: 0 -123px;
+}
+.store1Part5 a:hover span{
+	background-position: 0 -82px;
+}
+.store1Part6 span{
+	background:url(../img/store1.1.1.png) no-repeat #ccc;
+	background-position: 0 -369px;
+}
+.store1Part6 a:hover span{
+	background-position: 0 -328px;
+}
+.store1Part h2{
+	margin: 0;
+	font-size: 14px;
+}
+.store2 .store4Pic .store4Big{
+	display: block;
+	width: 100%;
+	height: 500px;
+	background: url(../img/store3.2.1.jpg) no-repeat center center;
+	background-size:cover;
+}
+.store4Small{
+	display: none;
+}
+@media (min-width:1151px ) and (max-width:1240px ) {
+	.store2 .store4Pic .store4Big{
+		height: 480px;
+	}
+}
+@media (min-width:769px ) and (max-width:1150px ) {
+	.store2 .store4Pic .store4Big{
+		height: 400px;
+	}
+}
+@media only screen and (max-width:768px ) {
+	.store2 .store4Pic .store4Big{
+		display: none;
+	}
+	.store2 .store4Pic .store4Small{
+		display: block;
+	}
+	.store2 .store4Pic .store4Small img{
+		width: 100%;
+	}
+}
+/*.store2 .store4Pic a{
+	height: 400px;
+}*/
+
+
+
+
+/*store3 begin*/
+.storeAll{
+    max-width: 1200px;
+    margin: 0 auto;
+    /*min-height: 50px;*/
+}
+.store3{
+	padding:60px 0 ;
+}
+.rowChange{
+	margin: 0 !important;
+}
+.store3 .store3Part{
+	float: left;
+	padding-left: 0;
+	padding-right: 0;
+	width: 31.55738%;
+    margin-left: 1.66667%;
+}
+.store3 .store3Part a img{
+	width: 100%;
+}
+@media only screen and (max-width: 1200px) {
+	.storeAll{
+		width: 93.75%;
+	}
+}
+@media only screen and (max-width: 768px) {
+	.storeAll{
+		width: 100%;
+		margin: 0;
+	}
+	.store3{
+		padding:0;
+	}
+	.store3 .store3Part{
+		float: none;
+		width: 100%;
+		margin-left: 0;
+	}
+	.store3Part a {
+		display: block;
+	}
+	.store3 .store3Part {
+   	 	padding-left: 0;
+    	padding-right: 0;
+	}
+}
+/*store3 end*/
+
+/*store4 begin*/
+.store4{
+	background: #f2f2f2;
+}
+.store4 h3{
+	display: block;
+	margin: 0;
+	padding-top: 50px;
+    padding-bottom: 10px;
+    margin-left: 1.66667%;
+}
+.store4 .store4Con{
+	margin: 0;
+}
+.store4 .store4Part{
+	float: left;
+	width: 23.1%;
+	margin-left: 1.66667%;
+	text-align: center;
+	background: white;
+	margin-top: 20px;
+	padding: 50px 0;
+	position: relative;	
+	/*z-index: 1;*/
+	transition: all .3s ease-in-out;
+}
+.store4 .store4Part:hover{
+	/*z-index: 888;*/
+	transform: translate3d(0,-2px,0);
+	box-shadow: 0 17px 50px 0 rgba(0,0,0,.19);
+	transition: all .3s cubic-bezier(.55,0,.1,1);
+}
+@media(max-width: 1279px) and (min-width: 1025px){
+	.store4 .store4Part {
+    	margin-left: 1.8%;
+	}
+}
+@media only screen and (max-width: 1025px){
+	.store4 .store4Part {
+	    width: 23.30508%;
+	    padding: 35px 0;
+	}
+}
+@media only screen and (max-width: 768px){
+	.store4 .storeAll{
+		width: auto;
+   	 	margin: auto 10px;
+	}
+	.store4 h3{
+	    margin-left: 0;
+	    padding-bottom: 0;
+	    font-size: 1.4em;
+	    margin-left: 2%;
+	}
+	.store4 .store4Part {
+	    width: 46%;
+	    float: left;
+	    padding: 30px 0 35px;
+	   	margin-right: 2%;
+	   	margin-left: 2%;
+	}
+}
+.store4Part a{
+	color: black;
+}
+.store4Part a:hover{
+	color: black;
+	text-decoration: none;
+}
+.store4Part a img{
+	display: block;
+	margin: 0 auto;
+	width: 64.21053%;
+}
+.store4Part h2{
+	font-size: 14px;
+	line-height: 1.8;
+    margin: 20px 20px 4px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.store4Two{
+	padding-bottom: 3.64583%;
+}
+/*store4 end*/
